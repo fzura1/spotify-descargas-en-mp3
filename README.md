@@ -9,6 +9,15 @@ Este proyecto permite descargar canciones y playlists de Spotify en formato MP3 
 - Interfaz de línea de comandos sencilla para una experiencia de usuario intuitiva.
 - Descargas organizadas en la carpeta `descargas` dentro del directorio del script.
 
+## Capturas de pantalla
+A continuación, se muestran algunas imágenes del funcionamiento del script:
+
+### Descargando una playlist completa
+![Descarga en proceso](img/screenshot.png)
+
+### Canciones descargadas en la carpeta `descargas`
+![Archivos descargados](img/screenshot2.png)
+
 ## Requisitos del Sistema
 Antes de ejecutar el proyecto, asegúrate de cumplir con los siguientes requisitos:
 - **Python**: Versión 3.10 o superior.
