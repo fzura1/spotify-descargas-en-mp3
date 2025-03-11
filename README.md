@@ -52,7 +52,26 @@ brew install ffmpeg
 ```
 
 #### En Windows
-Descarga el instalador desde [ffmpeg.org](https://ffmpeg.org/download.html) y sigue las instrucciones para agregarlo al `PATH` del sistema.
+Descargar FFmpeg
+
+Ve a la página oficial: https://ffmpeg.org/download.html.
+En la sección Windows, elige una versión precompilada (por ejemplo, desde Gyan.dev o BtbN).
+Descarga el archivo ZIP.
+Extraer los archivos
+
+Extrae el contenido del ZIP en una carpeta, por ejemplo: C:\ffmpeg.
+Configurar la variable de entorno
+
+Abre el Explorador de archivos y copia la ruta donde extraíste FFmpeg (ejemplo: C:\ffmpeg\bin).
+Presiona Win + R, escribe sysdm.cpl y presiona Enter.
+Ve a la pestaña Opciones avanzadas → Variables de entorno.
+En Variables del sistema, selecciona Path y haz clic en Editar.
+Agrega una nueva entrada con la ruta C:\ffmpeg\bin y guarda los cambios.
+Verificar instalación
+
+Abre Símbolo del sistema (Win + R, escribe cmd y presiona Enter).
+Escribe ffmpeg -version y presiona Enter.
+Si la instalación fue exitosa, verás información sobre FFmpeg.
 
 ## Uso del Script
 Ejecuta el siguiente comando para iniciar la descarga de canciones o listas de reproducción:
